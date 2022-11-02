@@ -1,0 +1,4 @@
+{
+  "/api/*": "/$1",
+  "/accounts/:accountId/demands": "/demands?_embed=demand_foods&accountId=:accountId"
+}

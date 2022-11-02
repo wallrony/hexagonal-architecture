@@ -1,0 +1,86 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Cara Teste",
+      "birthDate": "2000-01-01",
+      "cpf": "11111111111"
+    }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "name": "Feijão",
+      "price": 5
+    },
+    {
+      "id": 2,
+      "name": "Arroz",
+      "price": 4
+    },
+    {
+      "id": 3,
+      "name": "Macarrão",
+      "price": 3
+    },
+    {
+      "id": 4,
+      "name": "Carne",
+      "price": 15
+    }
+  ],
+  "demands": [
+    {
+      "id": 1,
+      "accountId": 1,
+      "createdAt": "2000-01-01"
+    },
+    {
+      "accountId": 1,
+      "createdAt": "2022-10-31T17:26:26.062Z",
+      "id": 2
+    },
+    {
+      "accountId": 1,
+      "createdAt": "2022-10-31T17:26:45.095Z",
+      "id": 3
+    }
+  ],
+  "demand_foods": [
+    {
+      "id": 1,
+      "demandId": 1,
+      "foodId": 1
+    },
+    {
+      "demandId": 2,
+      "foodId": 3,
+      "id": 2
+    },
+    {
+      "demandId": 2,
+      "foodId": 4,
+      "id": 3
+    },
+    {
+      "demandId": 2,
+      "foodId": 2,
+      "id": 4
+    },
+    {
+      "demandId": 3,
+      "foodId": 3,
+      "id": 5
+    },
+    {
+      "demandId": 3,
+      "foodId": 4,
+      "id": 6
+    },
+    {
+      "demandId": 3,
+      "foodId": 2,
+      "id": 7
+    }
+  ]
+}
